@@ -1,0 +1,88 @@
+.s_box{
+	width: 505px;
+	height: 240px;
+
+	background: white;
+	border: 1px solid black;
+	
+	margin: 200px auto;
+}
+
+.s_box_container{
+	width: 465px;
+	height: 200px;
+
+	margin: 20px;
+}
+.s_row{
+	margin: 12px;
+}
+
+.s_tab{
+	width: 68px;
+	display: block;
+
+	border-style: none;
+	outline: none;
+	border-bottom: 2px solid #D8D8D8;
+	margin-bottom: -1px;
+
+	line-height: 24px;
+	text-align: center;
+
+	font-weight: bold;
+	background: white;
+
+	float: left;
+}
+.s_tab:hover{
+	color:  #0B6ED0;
+}
+.s_tab:first-child{
+	border-bottom-color: #0B6ED0;
+	color:  #0B6ED0;
+}
+.s_tab_line{
+	border-bottom: 2px solid #D8D8D8;
+}
+
+.s_label{
+	margin: auto 5px;
+}
+
+.s_radioBut{
+	margin: 3px 2px 0px 5px;
+}
+
+.s_text{
+	width: 135px;
+	height: 22px;
+	margin-right: 5px;
+
+	border-style: none;
+	border: 1px solid #BBBBBB;
+	outline: none;
+	padding-left: 5px;
+}
+.s_text:focus{
+	border: 1px solid #5D9DE5;
+}
+.s_date{
+
+}
+
+.s_submit{
+	margin: 24px 150px;
+	width: 140px;
+	height: 30px;
+
+	border-style: none;
+	background: #FFB000;
+	
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+}
+.s_submit:hover{
+	background: #FF9900;
+}

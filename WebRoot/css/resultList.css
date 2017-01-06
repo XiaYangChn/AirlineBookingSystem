@@ -1,0 +1,289 @@
+
+.r_container{
+	background: #F1F1F1;
+}
+
+.r_top{
+	height: 40px;
+
+	margin: 5px 10px;
+
+	background: white;
+	border-bottom: 2px solid  #48A4FF;
+}
+.r_top_select{
+	width: 80px;
+	height: 23px;
+
+	margin: 10px; 
+	margin-left: 30px;
+
+	float: left;
+}
+.r_top_text{
+	width: 160px;
+	height: 22px;
+	margin: 10px; 
+
+	border: 1px solid  #CCCCCC;
+
+	float: left;
+}
+.r_icon{
+	width: 24px;
+	height: 22px;
+}
+.r_top_text input, .r_top_text select{
+	width: 130px;
+	height: 22px;
+
+	border-style: none;
+	outline: none;
+
+	font-size: 13px;
+
+	float: right;
+}
+.r_top_but{
+	width: 100px;
+	height: 24px;
+	margin: 9px 10px; 
+
+	border-style: none;
+	background: #48A4FF;
+	color: white;
+	border-radius: 3px;
+
+	float: left;
+}
+
+.r_title{
+	height: 24px;
+
+	margin: 10px;
+
+	background: #FAFAFA;
+	font-size: 13px;
+	line-height: 24px;
+}
+
+.r_title label, .r_title span{
+	float: left;
+}
+
+.r_title_sortIcon{
+	width: 15px;
+
+	margin: 5px 1px;
+
+	float: left;
+}
+.r_title_sortIcon img{
+	width: 13px;
+	height: 7px;
+
+	margin: 0px;
+
+	float: left;
+}
+
+.r_title_header{
+	margin-left: 90px;
+
+	float: left;
+}
+
+.r_title_item1{
+	margin-left: 130px;
+	color: #0066CC;
+
+	float: left;
+}
+.r_title_item2{
+	margin-left: 130px;
+
+	float: left;
+}
+
+.r_title_item3{
+	margin-left: 260px;
+
+	float: left;
+}
+
+
+.r_resultItem{
+	margin: 10px 20px;
+
+	background: white;
+}
+.r_resultItemBox{
+/*	height: 64px;*/
+
+	margin: 8px 0px;
+}
+
+.r_result_col{
+	height: 64px;
+
+	float: left;
+}
+
+.r_airline{
+	display: block;
+	text-align: center;
+
+	margin: 5px auto;
+}
+.r_airline span{
+	color: #999999;
+}
+.r_airplane{
+	margin: auto;
+
+	display: block;
+	text-align: center;
+
+	font-size: 13px;
+	color: #999999;
+}
+
+.r_departureTime{
+	width: 85%;
+
+	font-size: 22px;
+	font-weight: bold;
+
+	display: block;
+	text-align: right;
+}
+.r_departureCity{
+	width: 85%;
+
+	display: block;
+	text-align: right;
+
+	margin-top: -5px;
+}
+
+.r_arrow{
+	width: 90px;
+	height: 10px;
+
+	margin: 25px 5px;
+
+	display: block;
+	text-align: center;
+}
+
+.r_destinationTime{
+	width: 85%;
+
+	font-size: 22px;
+	font-weight: bold;
+
+	display: block;
+	text-align: left;
+
+	float: right;
+}
+.r_destinationCity{
+	width: 85%;
+
+	display: block;
+	text-align: left;
+
+	margin-top: -5px;
+
+	float: right;
+}
+
+.r_detail{
+	text-align: center;
+
+	font-size: 13px;
+	color: #999999;
+}
+.r_detail span{
+	line-height: 60px;
+}
+
+.r_price{
+	display: block;
+	text-align: center;
+	
+	line-height: 60px;
+}
+.r_price span{
+	font-size: 26px;
+	color: red;
+}
+.r_button_box{
+	margin: 15px 0px 15px 10px;
+}
+.r_button{
+	width: 64px;
+	height: 28px;
+
+	border-style: none;
+	background: #FFB000;
+	color: white;
+	border-radius: 3px;
+}
+.r_button:hover{
+	background: #FF9900;
+}
+.r_emptySeats{
+	font-size: 13px;
+	color: #FF0000;
+}
+
+
+.r_transfer1_arrow{
+	width: 90px;
+	height: 10px;
+
+	margin: 0px 5px;
+
+	display: block;
+	text-align: center;
+}
+
+.r_transfer1_trans1,.r_transfer1_trans2{
+	margin: 0px auto;
+
+	display: block;
+	text-align: center;
+
+	font-size: 12px;
+	color: #999999;
+	line-height: 16px;
+}
+.r_transfer1_trans1{
+	margin-top: 8px;
+}
+.r_transfer1_fare{
+	margin: 5px auto;
+
+	display: block;
+	text-align: center;
+
+	font-size: 13px;
+	color: #999999;
+}
+
+.r_noResult{
+	height: 50px;
+	margin: 10px 20px;
+	
+	text-align: center;
+
+	border-radius: 10px;
+
+	background: white;
+}
+.r_noResult span{
+	font-size: 18px;
+	color: #FF9900;
+	line-height: 50px;
+}

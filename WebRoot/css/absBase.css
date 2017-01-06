@@ -1,0 +1,38 @@
+
+
+.abs_container{
+	width: 1024px;
+	margin: auto;
+}
+
+/* 全局属性 */
+
+.user_unSelect{
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+.width_20{
+	width: 20px;
+}
+.width_100{
+	width: 100px;
+}
+
+.width_140{
+	width: 140px;
+}
+
+.width_150{
+	width: 150px; 
+}
+
+.width_180{
+	width: 180px;	
+}	
+
+.width_200{
+	width: 200px;
+}

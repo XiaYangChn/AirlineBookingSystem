@@ -1,0 +1,362 @@
+
+.g_container{
+	background: #F3F3F3;
+}
+
+.g_title{
+	height: 40px;
+
+	border-style: none;
+	outline: none;
+
+	border-left: 3px solid #2577E3;
+	border-bottom: 1px solid #F3F3F3;
+
+	background: white;
+}
+.g_content{
+	width: 800px;
+	background: white;
+
+	border-right: 1px solid #F3F3F3;
+
+	float: left;
+}
+.g_extend{
+	width: 200px;
+
+	float: right;
+}
+
+.g_order .g_title{
+	border-top: 1px solid #2577E3;
+}
+.g_title span{
+	font-size: 20px;
+	color: #666666;
+	line-height: 40px;
+
+	margin-left: 20px;
+}
+
+.g_order{
+	margin: 5px 10px;
+	margin-top: 20px;
+
+	background: #FCFCFC;
+}
+
+.g_order_info{
+	margin: 20px 0px 50px 0px;
+
+	float: left;
+}
+
+.go_info_detail{
+	width: 600px;
+
+	font-size: 13px;
+
+	float: left;
+}
+.go_info_title{
+	width: 120px;
+
+	float: left;
+}
+.go_info_title span{
+	display: block;
+
+	color: #999999;
+
+	text-align: right;
+
+	margin: 5px 10px 5px 0px;
+}
+.go_info_styleBlod{
+	font-weight: bold;
+}
+.go_info_value{
+	width: 300px;
+	float: left;
+}
+.go_info_value span{
+	display: block;
+
+	text-align: left;
+
+	margin: 5px 0px 5px 10px;
+}
+
+.go_info_total{
+	width: 200px;
+
+	float: left;
+}
+.go_info_total em{
+	font-style: normal;
+	color: black;
+
+	margin: 12px 2px 0px 12px;
+
+	float: left;
+}
+.go_info_total span{
+	font-size: 32px;
+	color: #FF6600;
+	display: block;
+
+	float: left;
+}
+.go_info_total span:first-child{
+	font-size: 14px;
+	color: #999999;
+	line-height: 56px;
+}
+	
+.go_extend_but{
+	width: 140px;
+	height: 26px;
+
+	margin: 20px 0px 0px 25px;
+
+	border-style: none;
+	outline: none;
+	border: 1px solid #D1D1D1;
+	border-radius: 3px;
+	box-shadow: 0px 1px 3px #D1D1D1;
+
+	background: white;
+}
+.go_extend_but:first-child{
+	margin-top: 30px;
+}
+.go_extend_but:hover{
+	color: white;
+	border-color: #0B6ED0;
+	background: #0B6ED0;
+}
+.go_eb_cancel:hover{
+	color: white;
+	border-color: #FF6600;
+	background: #FF6600;
+}
+
+.g_flight{
+	margin: 5px 10px;
+
+	background: #FCFCFC;
+}
+
+.g_flight_info{
+	margin-bottom: 50px;
+
+	border-bottom: 1px solid #F3F3F3;
+
+	float: left;
+}
+
+.gf_info_item{}
+
+.gf_info_title{
+	width: 50px;
+	
+	margin-top: 13px;
+	
+	text-align: center;
+	color: #999999;
+
+	float: left;
+}
+.gf_info_value{
+	width: 749px;
+
+	border-left: 1px solid #F3F3F3;
+
+	float: left;
+}
+
+.gf_info_main{
+	height: 50px;
+
+	line-height: 50px;
+	font-weight: bold;
+
+	border-top: 1px solid #F3F3F3;
+	margin-top: -1px;
+}
+.gf_info_main span{
+	margin-left: 20px;
+}
+
+.gf_info_detail{
+	border-top: 1px solid #F3F3F3;
+}
+
+.gf_info_airline{
+	width: 140px;
+	margin: 20px;
+
+	text-align: center;
+
+	float: left;
+}
+.gf_info_airline span{
+	display: block;
+
+	font-size: 13px;
+	font-weight: bold;
+}
+.gf_info_airline span:first-child{
+	font-size: 14px;
+}
+.gf_info_airline span:last-child{
+	color: #999999;
+	font-weight: normal;
+}
+
+.gf_info_time{
+	width: 500px;
+
+	margin: 15px 30px; 
+
+	float: left;
+}
+
+.gf_info_depart{
+	text-align: right;
+	float: left;
+}
+.gf_info_depart span{
+	display: block;
+	font-size: 13px;
+}
+.gf_info_depart span:first-child{
+	font-size: 24px;
+	font-weight: bold;
+
+	margin-bottom: -10px;
+}
+.gf_info_time img{
+	width: 74px;
+	height: 11px;
+
+	margin: 24px 10px;
+
+	float: left;
+}
+.gf_info_arrive{
+	text-align: left;
+	float: left;
+}
+.gf_info_arrive span{
+	display: block;
+	font-size: 13px;
+}
+.gf_info_arrive span:first-child{
+	font-size: 24px;
+	font-weight: bold;
+
+	margin-bottom: -10px;
+}
+
+.gf_info_costTime{
+	font-size: 13px;
+	color: #999999;
+	float: left;
+}
+.gf_info_costTime img{
+	width: 16px;
+	height: 16px;
+	
+	margin: 10px 2px 0px 30px;
+
+	float: left;
+}
+.gf_info_costTime span{
+	margin-top: 7px;
+	display: block;
+	float: left;
+}
+
+
+.g_passenger{
+	margin: 5px 10px;
+
+	background: #FCFCFC;
+}
+
+.g_passenger_info{
+	float: left;
+}
+
+.gp_info_item{
+	margin: 8px 50px;
+	float: left;
+}
+.gp_info_item span{
+	display: block;
+}
+.gp_info_item:first-child{
+	margin-top: 20px;
+}
+.gp_info_item:last-child{
+	margin-bottom: 20px;
+}
+
+.gp_contact_item{
+	margin: 20px 50px;
+	float: left;
+}
+.gp_contact_item span{
+	display: block;
+}
+.gp_info_num{
+	width: 24px;
+	height: 24px;
+
+	margin: 4px;
+
+	border-radius: 50px;
+	background: #C6DBF1;
+
+	font-weight: bold;
+	text-align: center;
+	color: white;
+
+	float: left;
+}
+
+.gp_info_title{
+	width: 80px;
+	margin-right: 10px;
+	text-align: right;
+
+	color: #999999;
+
+	float: left;
+}
+
+.gp_info_value{
+	width: 300px;
+	margin-left: 10px;
+	text-align: left;
+
+	font-weight: bold;
+
+	float: left;
+}
+
+.g_contact{
+	margin: 5px 10px;
+	margin-bottom: 20px;
+
+	background: #FCFCFC;
+}
+
+.g_contact_left{
+	width: 24px;
+	height: 24px;
+	float: left;
+}
+

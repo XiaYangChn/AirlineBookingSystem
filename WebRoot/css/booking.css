@@ -1,0 +1,353 @@
+
+.b_container{
+	background: #EAF0F3;
+}
+
+.b_form{
+	width: 640px;
+	margin: 20px;
+	
+	float: left;
+}
+
+.b_form_title{
+	margin-left: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.b_form_item{
+	margin: 15px 0px;
+
+	background: white;
+}
+
+.bf_item_idArea{
+	width: 30px;
+
+	font-size: 24px;
+	font-style: italic;
+	color: #EAF0F3;
+
+	display: block;
+	text-align: center;
+
+	margin-top: 10px;
+	margin-right: 10px;
+
+	float: left;
+}
+
+#bf_item_id{}
+
+.bf_item_textArea{
+	width: 380px;
+
+	margin: 10px 0px;
+
+	border-right: 1px dashed #999999;
+
+	float: left;
+}
+.bf_item_text{
+	margin: 10px 0px;
+}
+.bf_item_text span{
+	margin-right: 10px;
+	float: left;
+}
+.bf_item_text input{
+	width: 240px;
+	height: 24px;
+
+	border-style: none;
+	outline: none;
+
+	margin-left: 5px;
+}
+.bf_item_text div{
+	border-bottom: 1px solid #B4C4D6;
+	float: left;
+}
+
+.bf_item_seatType{
+	margin: 10px 0px;
+
+	color: #999999;
+}
+.bf_item_seatType span{
+	color: black;
+}
+
+.bf_item_radioBut{
+	margin: 6px 1px 0px 5px;
+}
+
+.bf_item_subtotalArea{
+	width: 200px;
+
+	margin: 10px 0px;
+
+	float: left;
+}
+
+.bf_item_delete img{
+	width: 13px;
+	height: 13px;
+	float: right;
+}
+.bf_item_delete span{
+	font-size: 13px;
+	line-height: 13px;
+	color: #0B6ED0;
+
+	cursor: default;
+
+	float: right;
+}
+.bf_item_delete span:hover, span:focus{
+	border-bottom: 1px dashed #0B6ED0;
+}
+
+.bf_item_subtotal{
+	width: 100%;
+
+	text-align: center;
+
+	color: #999999;
+}
+.bf_item_subtotal span{
+	width: 100%;
+	line-height: 20px;
+	display: block;
+}
+.bf_item_subtotal span:first-child{
+	margin-top: 30px;
+}
+
+
+.b_form_addItem{
+	width: 100px;
+	height: 30px;
+
+	border-style: none;
+	outline: none;
+	border: 1px solid #0B6ED0;
+	border-radius: 3px;
+
+	color: #0B6ED0;
+
+	background: #EAF0F3;
+
+	margin: 0px 0px 10px 10px;
+}
+.b_form_addItem:hover{
+	background: #0B6ED0;
+	color: white;
+}
+
+.b_form_mainPassenger{
+	margin: 10px 0px 0px 0px;
+}
+.bf_passenger_info{
+	margin: 10px 0px;
+
+	background: white;
+}
+.bfp_info_text{
+	margin: 10px 0px;
+	float: left;
+}
+.bfp_info_text span{
+	margin-top: 3px;
+	margin-left: 24px;
+	float: left;
+}
+.bfp_info_text input{
+	width: 160px;
+	height: 24px;
+
+	border-style: none;
+	outline: none;
+
+	margin-left: 5px;
+}
+.bfp_info_text div{
+	border-bottom: 1px solid #B4C4D6;
+	float: left;
+}
+
+.b_form_submit{
+	width: 100%;
+	height: 36px;
+
+	margin: 10px 0px;
+
+	border-style: none;
+	outline: none;
+	border: 1px solid #0B6ED0;
+	border-radius: 3px;
+
+	background: #0B6ED0;
+
+	font-size: 18px;
+	color: white;
+}
+
+
+.b_order{
+	width: 320px;
+
+	margin: 10px 0px;
+
+	background: #F5F8F9;
+
+	border: 1px solid #E0E5E7;
+
+	float: left;
+}
+
+.b_order_info{
+	border-bottom: 1px solid #E0E5E7;
+}
+
+.bo_info_item{
+	border-top: 1px dashed #E0E5E7;
+}
+.bo_info_item:first-child{
+	border-style: none;
+}
+.bo_info_num{}
+
+.bo_info_flightArea{
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+
+	text-align: center;
+}
+.bo_info_flightArea:first-child{
+	margin-top: 20px;
+}
+.bo_info_date{
+	margin: 0px 5px;
+}
+.bo_info_city{
+	margin: 0px 5px;
+}
+.bo_info_arrow{
+	width: 20px;
+	height: 20px;
+	margin: 5px 0px;
+}
+
+.bo_info_airlineArea{
+	text-align: center;
+
+	font-size: 12px;
+	color: #849BAB;
+	line-height: 16px;
+}
+.bo_info_airline{
+	margin: 0px 5px;
+}
+.bo_info_plane{
+	margin: 0px 5px;
+}
+
+.bo_info_timeArea{
+	margin-top: 5px;
+}
+.bo_info_time{
+	font-size: 28px;
+
+	margin: 0px 22px;
+
+	float: left;
+}
+.bo_info_time:last-child{
+	float: right;
+}
+.bo_info_timeArea img{
+	width: 12px;
+	height: 12px;
+
+	margin: 18px 0px;
+	margin-left: 19px;
+
+	float: left;
+}
+.bo_info_costTime{
+	font-size: 12px;
+	color: #999999;
+
+	display: block;
+	line-height: 50px;
+
+	margin-right: 19px;
+
+	float: left;
+}
+
+.bo_info_airportArea{
+	margin-bottom: 10px;
+	text-align: center;
+}
+.bo_info_airportArea:last-child{
+	margin-bottom: 20px;
+}
+.bo_info_airport{
+	font-size: 13px;
+	line-height: 18px;
+}
+.bo_info_timeline{
+	width: 100px;
+	height: 18px;
+
+	margin: 3px;
+}
+
+.b_order_detail{
+	border-bottom: 1px solid #E0E5E7;
+}
+
+.bo_detail_item{
+	margin: 10px 20px;
+
+	font-size: 13px;
+}
+.bo_detail_subtotal{
+}
+.bo_detail_subtotal:first-child{
+	margin-top: 4px;
+}
+.bo_detail_subtotal:last-child{
+	margin-bottom: 4px;
+}
+.bo_detail_seatType{
+	width: 100%
+}
+.bo_detail_title{
+	float: left;
+}
+.bo_detail_value{
+	float: right;
+}
+
+.b_order_cost{
+	text-align: right;
+	margin-right: 30px;
+	margin-bottom: 50px;
+
+	font-weight: bold;
+	color: #FF7D13;
+}
+
+.b_order_cost{
+	font-size: 30px;
+}
+
+/* template */
+#b_formItem{
+	display: none;
+}
